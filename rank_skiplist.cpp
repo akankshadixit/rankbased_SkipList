@@ -28,7 +28,7 @@ char* SkipList::hexstring(unsigned char* bytes, int len)
 }
 
 
-const char* SkipList:: set_level_hash(int level, int rank, int bit, const char* x, const char* y)
+const char* SkipList::set_level_hash(int level, int rank, int bit, const char* x, const char* y)
 { 
    int len = strlen(x) + strlen(y);
    char* result = (char*)malloc (sizeof(char)*(2*(len)+10));
